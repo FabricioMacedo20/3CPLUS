@@ -166,3 +166,89 @@ animation-timing-function: linear;
 .calc4 {
     width: calc(50% / 2);
 }
+
+/* gradient-box*/
+.gradient-box {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+.gradient1 {
+    background-image: linear-gradient(purple, blue);
+}
+
+.gradient2 {
+    background-image: linear-gradient(to right, purple, blue);
+}
+
+.gradient3 {
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+.gradient4 {
+    background-image: linear-gradient(to top, red, yellow);
+}
+
+.gradient5 {
+    background-image: linear-gradient(to top right, purple, blue);
+}
+
+.gradient6 {
+    background-image: linear-gradient(#FFF, #CCC, #000);
+}
+
+.gradient7 {
+    background-image: radial-gradient(#323042, #db9d47, #FF784F);
+}
+
+.gradient8 {
+    background-image: radial-gradient(#323042 10%, #db9d47 30%, #FF784F);
+}
+
+.gradient9 {
+    background-image: radial-gradient(circle, #323042, #db9d47, #FF784F);
+}
+
+/*Font face*/
+@font-face {
+    font-family: "lage grafica";
+    src: url(Fonte_face.html);
+}
+
+.fontface {
+    font-family: "lage grafica";
+}
+
+/* media query*/
+
+.mediaquery {
+    height: 200px;
+    width: 1200px;
+    background-color: red;
+}
+
+@media (max-width:1000px) {
+    .mediaquery {
+        width: 500px;
+        background-color: blue;
+    }
+}
+
+@media (max-width:768px) {
+    .mediaquery {
+        width: 300px;
+        background-color: green;
+    }
+}
+
+@media (max-width:512px) {
+    .mediaquery {
+        width: 200px;
+        background-color: gold;
+    }
+}
+
+
+
